@@ -9,6 +9,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { EducationComponent } from './components/education/education.component';
 import { HSSComponent } from './components/hss/hss.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ButtonComponent } from './components/button/button.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ProjectsComponent } from './components/projects/projects.component';
     ExperienceComponent,
     EducationComponent,
     HSSComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ButtonComponent,
+
   ],
   imports: [
     BrowserModule,
